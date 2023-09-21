@@ -2,6 +2,7 @@ declare global {
   namespace NodeJS {
     interface ProcessEnv {
       NEXTAUTH_SECRET: string;
+      DATABASE_TYPE?: string;
       DATABASE_URL: string;
       NEXTAUTH_URL: string;
       PAGINATION_TAKE_COUNT?: string;
